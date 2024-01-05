@@ -1136,7 +1136,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Bản quyền: 21HCB";
+            this.label2.Text = "Bản quyền: 22HCB";
             // 
             // label1
             // 
@@ -1154,7 +1154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(1723, 899);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labelX1);

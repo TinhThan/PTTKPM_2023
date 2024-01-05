@@ -14,7 +14,7 @@ namespace PTTKPM.Common
         /// <summary>
         /// Chuỗi kết nối với Database
         /// </summary>
-        public static String ConnectionString= $"Data Source=DESKTOP-42DU9CM\\TINHTHANDEV;Database=PTTKPM;Integrated Security=sspi;Trusted_Connection=True;TrustServerCertificate=True;";
+        public static String ConnectionString= $"Data Source=LINH;Database=PTTKPM;Integrated Security=sspi;Trusted_Connection=True;TrustServerCertificate=True;";
         #endregion
         #region ExcuteQuery : Get
         public static DataTable executeQuery(string sql)

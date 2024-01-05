@@ -22,21 +22,11 @@ namespace PTTKPM.GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lbGioiThieu.Text = "Trường được thành lập năm 1994 theo QĐ 768 ngày 9/8/1994 của UBND tỉnh. \n"
-                + "Lúc ấy Trường mang tên “Trường PTTH Bán công Phan Thiết” toạ lạc tại 391 Trần Hưng Đạo,\n"
-                + "Đây là cơ sở của Trường tiển học được xây dựng trước năm 1975 gồm 7 phòng học diện tích khoảng 32m2/phòng. \n"
-                + "Khi tiếp nhận cơ sở này, chỉ có phòng không vườn trống, không bàn ghế, không điện. \n"
-                + "Do mặt bằng thấp nên mùa mưa toàn bộ ngập tràn trong biển nước. Đội ngũ VBGVNV chỉ có 19 người. \n"
-                + "Học sinh cũng chỉ có 622 em/13 lớp, trong đó có 4 lớp 11 là học sinh hệ B từ trường Phan Bội Châu chuyển qua \n";
+            lbGioiThieu.Text = "Thông tin giới thiệu về trường";
 
-            lbGioiThieu2.Text = "Thế rồi như một quy luật tất yếu của sự sinh tồn, toàn thể thầy và trò đã gồng mình lên để vượt qua gian khó, \n"
-                +"để tự khẳng định mình với tinh thần “khó khăn khắc phục, lấy bất biến ứng vạn biến”. \n"
-                +"Cứ như thế, từng ngày, từng tháng, kiên trì, nhẫn nại, bình tĩnh vượt qua và tồn tại, \n"
-                + "để đến ngày 26/2/1997 bắt đầu có ngôi trường mới với 12 phòng học, tại địa điểm bây giờ. \n";
+            lbGioiThieu2.Text = "Thông tin giới thiệu về trường";
 
-            lbGioiThieu3.Text = "Trường được Bộ Giáo dục tặng 01 Bằng khen, Bộ Văn hoá thể thao du lịch tặng 01 Bằng khen ;\n "
-                +"Chi bộ được Tỉnh Uỷ công nhận trong sạch vững mạnh tiêu biểu cấp Tỉnh 9 năm liền (1999-2007). \n"
-                +"Có thể nói đây là năm học đạt được nhiều kết quả tốt đẹp nhất";
+            lbGioiThieu3.Text = "Thông tin giới thiệu về trường";
 
             ribAo.Visible = false;
             switch (BienToanCuc.loai_nguoi_dung)
